@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My todo app</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+<div id="page">
+    <header >
+        <div id="header"><h1>My Contacts</h1></div>
+    </header>
+<main>
+    <div>
+        <input type="text" id="nameInput" placeholder="Name" />
+        <input type="text" id="numberInput" placeholder="Phone Number" />
+        <button id="addContact">Add</button>
+    </div>
+    <div>
+        <ul>
+            <li id="contact-1">
+                Jota 687336019
+                <button id="edit-1">Edit</button>
+                <button id="delete-1">X</button>
+            </li>
+            <li id="contact-2">
+                <input type="text" id="nameInput" value="Jordi" />
+                <input type="text" id="nameInput" value="669879601" />
+                <button id="edit-2">Save</button>
+            </li>
+            <li id="contact-2">
+                Luisa 679237322
+                <button id="edit-3">Edit</button>
+                <button id="delete-3">X</button>
+            </li>
+        </ul>
+    </div>
+</main>
+</div>
+<script src="data/dataContacts.js"></script>
+<script src="js/templates/contact.js"></script>
+<script src="js/templates/contactList.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
+
